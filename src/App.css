@@ -1,0 +1,68 @@
+.container {
+    align-items: center;
+    align-content: center;
+    
+}
+
+.rickandmorty {
+    background-image: url("../src/imagen/2880737.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+   
+}
+
+.rickandmorty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 20em;
+}
+
+.logoRick{
+    background-image: url("../public/tt.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    font-size: 300%;
+    margin-top: 50px;
+}
+
+.resident-container{
+   display: flex;
+   flex-wrap: wrap;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    color: rgb(255, 0, 0);
+    gap: 50px;
+    background:linear-gradient(rgb(246, 255, 0),rgb(80, 253, 120), rgb(255, 255, 255));
+    max-width: 1000px;
+    margin: 10px 260px;
+    font-size: 18px;
+    max-height: 50px;
+    border-radius: 50px;
+}
+.h1logo{
+    color: transparent;
+    
+}
+.error{
+    color: rgb(0, 255, 251);
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.info{
+    text-align: justify;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    color: black;
+    font-weight: 500;
+}
